@@ -1,0 +1,55 @@
+div.lists{
+    margin:80px 0 0 70px;
+}
+
+
+h3{
+    text-align: center;
+}
+
+h3.list-titles{
+    text-align: center;
+    margin-right: 600px;;
+}
+
+
+ul,ol{
+    margin-left: 10px;
+    width: 50%;
+    background-color: rgb(21, 20, 20);
+    margin:10px;
+}
+
+
+li{
+    margin:10px;
+    padding:10px;
+    list-style-type:disc; 
+    margin-right: 50px;
+}
+
+
+ul.first-list li{
+    color: yellow;
+    background-color: rgb(103, 104, 104); 
+    
+}
+
+
+ol.first-list li{
+    color: rgb(96, 27, 25);
+    background-color: rgb(222, 225, 225);
+    
+}
+
+
+ul.second-list li{ 
+    color: rgb(220, 90, 38);
+    background-color: rgb(4, 8, 8);   
+}
+
+
+ul.second-list{
+    background-color: rgb(183, 191, 198);
+}
+

@@ -1,0 +1,172 @@
+ /*global body, ...ect*/
+            body{
+                font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                background-color:#749882; 
+                color:white;
+                font-weight:normal;
+                font-style:oblique;
+            }
+
+            header img{
+                display: block;
+                margin: auto;
+                width:150px;
+                border-radius: 50%;
+                border: 5px solid #dedede;
+                padding: 5px;
+            }
+
+            header{
+                text-align: center;
+            }
+
+            a{
+                text-decoration: none;
+                color:white;
+            }
+            
+            h1{
+                text-transform: capitalize;
+            }
+
+            img{
+                max-width: 400px;
+            }
+
+
+/*utilities*/
+            .flex-container{
+                display:flex;
+                flex-direction:row;
+
+            }
+
+            .btn{
+                display:block;
+                background-color:#1D3940;
+                margin:20px;
+                padding:10px;
+                text-align: center;
+                border-radius: 30px;
+            }
+
+
+/*header*/
+            .name{
+                color:#1D3940;
+                font-size: 350%;
+                font-weight: 600;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+                text-transform: uppercase;
+            }
+
+            .title{
+                color:#10261e;
+                font-size: 200%;
+                font-weight: 300;
+                font-family:Verdana, Geneva, Tahoma, sans-serif;
+                text-decoration: underline;
+}
+            .location{
+                color:#cfc4c4;
+                font-size: 150%;
+                font-weight: 150;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+
+
+/*main*/
+            main{
+                flex-basis:80%;
+            }
+
+            .greeting{
+                text-transform: uppercase;
+                font-size: 20px;
+                letter-spacing: 3px;
+                margin-bottom: 2;
+                color: #0D0D0D;
+
+            }
+
+            .my-name{
+                text-transform: uppercase;
+                font-size: 20px;
+                letter-spacing: 3px;
+                margin-top: 2;
+                color: #0D0D0D;
+            }
+
+            .my-name span{
+                color:blueviolet
+            }
+
+
+/* Education*/
+            h4{
+                font-size: 50px;
+                text-decoration:underline;
+                color:#10261e;
+                margin-left: 230px;
+            }
+
+            h4.education-title{
+                margin-left: 350px;
+            }
+
+            main p{
+                line-height: 2;
+                text-align: center;
+                font-family: Arial, Helvetica, sans-serif;
+                width:50%;
+                font-size: 18px;
+                border-radius: 10px;
+                padding: 15px;
+                margin-left: 180px;
+                color: #0D0D0D;
+            }
+
+            .grad-year{
+                width: 40px;
+            }
+
+            .grad-degree{
+                width: 500px;
+            }
+            
+            div{
+                margin-left:200px;
+            }
+
+            div.flex-container{
+                margin-left: 30px;
+            }
+
+
+            div p{
+                background-color:#f2e6d8;
+                margin-top: 40px;
+            }
+
+            p.grad-degree{
+                margin-left: 30px;
+            }
+
+            span{
+                text-align: center;
+                border: 1px solid #cfc4c4;
+                width:30px
+            }
+
+/* Contact page */
+            .contact-icon{
+                width: 40px;
+            }
+
+            .contact-title{
+                margin-left: 350px;
+            }
+            .contact{
+                width: 600px;
+                text-align: center;
+            }
